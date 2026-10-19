@@ -124,4 +124,4 @@ pytest
 git clone https://github.com/ipmahonin/Task-Manager-API
 docker compose up -d --build - поднимает проект
 docker compose exec app python -m pytest -v - запускает тесты
-http://127.0.0.1:8000/docs#/default/get_tasks_tasks_get - документация от FastAPI
+http://127.0.0.1:8000/docs - документация от FastAPI
