@@ -122,6 +122,7 @@ pytest
 секретный JWT-ключ или другие секреты в репозиторий.
 
 git clone https://github.com/ipmahonin/Task-Manager-API
+cd Task-Manager-API
 docker compose up -d --build - поднимает проект
 docker compose exec app python -m pytest -v - запускает тесты
 http://127.0.0.1:8000/docs - документация от FastAPI
